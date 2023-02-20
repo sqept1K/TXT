@@ -1,1 +1,20 @@
 
+
+  id - 1;
+  title - Request /search/products has not been sent, when user fills search field;
+  severty - critical;
+  priority - high;
+  enviroment: 
+              - os: macOS;
+              - osVersion: monterey_12.5;
+              - browser": safari;
+              - browserVersion: 15.6
+    preconditions: 
+              - home page is opened
+    steps: 
+              - click on search field;
+              - fill search field with value tv
+    
+  expectedResult - search results are appeared on page; 
+  actualResult - Request /search/products has not been sent. The are no search results on page.
+  
