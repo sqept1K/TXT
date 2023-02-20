@@ -1,0 +1,12 @@
+about me:
+name: maksim;
+surname: borodin;
+patronymic: valer'evich;
+age: 29;
+
+my pets: - dog(margo);
+	 - cat(musya)
+
+salary: 5000$. 
+
+
